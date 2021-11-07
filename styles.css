@@ -1,0 +1,129 @@
+body {
+    background: #FAF2D6;
+    color: #302E2D;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    margin: 0 auto;
+    /*
+    margin: 0 auto - to center block-level elements
+    */
+}
+
+.left-col {
+    width: 25%;
+
+}
+
+.width_75{
+    width: 75%;
+}
+
+.width_25{
+    width: 25%;
+}
+
+.height_limited{
+    height: 60px;
+}
+
+.right-col{
+    float: right;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+footer{
+     padding: 10px;
+    display: flex;
+ }
+
+.container {
+    display: flex;
+    clear: both;
+}
+
+.left_sided{
+    padding-left: 10px;
+}
+
+.center-col {
+    width: 50%;
+}
+
+.align_right {
+    text-align: right;
+}
+
+.align_center {
+    text-align: center;
+}
+
+section, main, aside{
+    padding: 12px;
+}
+
+aside {
+    width: 25%;
+}
+
+.yellow-label{
+    background: #dbda95;
+    min-width: 35%;
+    float: right;
+    padding: 3px;
+}
+
+.blue{
+    background: #76bcee;
+}
+
+.green{
+    background: #a0db98;
+}
+
+.pink{
+    background: #dbaac3;
+}
+.yellow{
+    background: #dbda95;
+}
+
+nav {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.centered{
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin: 0 auto;
+}
+
+nav li a {
+    display: block;
+    color: #000000;
+    background: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin: 2px;
+    vertical-align: middle;
+    /*width: 200px;*/
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #8B0000;
+}
