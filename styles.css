@@ -13,39 +13,39 @@ body {
 
 }
 
-.width_75{
+.width_75 {
     width: 75%;
 }
 
-.width_25{
+.width_25 {
     width: 25%;
 }
 
-.height_limited{
+.height_limited {
     height: 60px;
 }
 
-.right-col{
+.right-col {
     float: right;
 }
 
-header{
+header {
     padding: 10px;
     display: flex;
     margin: 0 auto;
 }
 
-footer{
-     padding: 10px;
+footer {
+    padding: 10px;
     display: flex;
- }
+}
 
 .container {
     display: flex;
     clear: both;
 }
 
-.left_sided{
+.left_sided {
     padding-left: 10px;
 }
 
@@ -61,7 +61,7 @@ footer{
     text-align: center;
 }
 
-section, main, aside{
+section, main, aside {
     padding: 12px;
 }
 
@@ -69,25 +69,26 @@ aside {
     width: 25%;
 }
 
-.yellow-label{
+.yellow-label {
     background: #dbda95;
     min-width: 35%;
     float: right;
     padding: 3px;
 }
 
-.blue{
+.blue {
     background: #76bcee;
 }
 
-.green{
+.green {
     background: #a0db98;
 }
 
-.pink{
+.pink {
     background: #dbaac3;
 }
-.yellow{
+
+.yellow {
     background: #dbda95;
 }
 
@@ -96,7 +97,7 @@ nav {
     margin: 0 auto;
 }
 
-.centered{
+.centered {
     align-items: center;
 }
 
@@ -126,4 +127,40 @@ nav li a {
 
 nav li a:hover {
     background-color: #8B0000;
+}
+
+.output {
+    background-color: #91eca1;
+    color: #900070;
+    font-style: italic;
+}
+
+.textarea3 {
+    background-color: #c9c8a6;
+    color: #000c80;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.checkform {
+    width: 400px;
+    height: 198px;
+    padding: 2px 12px;
+    background-color: #c9c8a6;
+    float: right;
+}
+
+.wrapper {
+    padding: 20px;
+    margin: 15px 0;
+    background-color: #0f9d58;
+}
+
+textarea {
+    font-size: 10px;
+    width: 100%;
+    background-color: #c9c8a6;
+    color: #000c80;
+    max-width: 100%;
+    max-height: 100%;
 }
